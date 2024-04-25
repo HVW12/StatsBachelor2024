@@ -34,8 +34,8 @@ summary(pets)
 #what is the logarithm of zero?
 log(0)
 
-hist(log(siblings_number)+1)
-hist(log(pets)+1)
+hist(log(siblings_number+1))
+hist(log(pets+1))
 #ok, our data is not normally distributed let's try a Spearman rank correlation instead
 ?cor.test
 cor.test(siblings_number,pets,method="spearman")
