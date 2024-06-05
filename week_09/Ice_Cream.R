@@ -1,6 +1,6 @@
 getwd()
 #setting my working directory (where is my file?)
-setwd("")
+
 
 #telling R which file to work with
 
